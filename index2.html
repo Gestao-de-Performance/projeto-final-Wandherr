@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="icon" href="img/icon_logo.png">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="background">
+        <header>
+            <div class="logo">
+                <img width="100px" height="100px" src="./img/logo.png" class="img_logo" alt="A logo é composta pela letra V, letra S">
+            </div><!--logo-->
+
+            <div class="cabecalho-link">
+                <li>
+                    <a data-abre-modal="#modal-exemplo-1">Sobre Mim</a>
+                </li>
+
+                <li>
+                    <a data-abre-modal="#modal-exemplo-2">Curriculo</a>
+                </li>
+
+                <li>
+                    <a data-abre-modal="#modal-exemplo-3">Skills</a>
+                </li>
+
+                <li>
+                    <a data-abre-modal="#modal-exemplo-4">Projetos</a>
+                </li>
+
+            </div><!--cabeçalho-link-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="fa-solid fa-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-1">Sobre Mim</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-2">Curriculo</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-3">Skills</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-4">Projetos</a>
+                         </li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </header>
+
+
+        <div class="container-text">
+            
+            <div class="text">
+                <h2>Olá, Pessoal</h2>
+                <h1>Eu Sou <span>Vanderley Silva</span></h1>
+                <h3>"Se você não mudar de direção, terminará exatamente onde partiu"</h3>
+                    <div class="redes-social">
+                        <a href="https://bit.ly/3MLpS0R" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://bit.ly/3QyGdIx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://bit.ly/3R27MKx" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://bit.ly/3QhZywa" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://bit.ly/47o0rKw" target="_blank"><i class="fa-brands fa-telegram"></i></a>  
+                    </div><!--redes-social-->
+
+                <a  href="mailto:vanderley.silva.vs2@gmail.com" target="_blank"><button class="bt">E-Mail</button></a>
+                <a href="https://bit.ly/46YbJp2" target="_blank"><button class="bt">Meu Contato</button></a>
+            </div><!--textos e redes sociais-->
+
+
+            <div class="f_perfil">
+                <img class="img_perfil" width="800px" height="800px" src="./img/foto_perfil.png">
+            </div>
+        </div><!--container-text-->
+
+        
+        
+        <div id="modal-exemplo-1" class="modal">
+            <header>
+                <h2>Sobre Mim</h2>
+                <span class="fechar-modal">X</span>
+            </header> 
+            <div class="corpo-modal">
+                <p> Olá! Meu nome é Vanderley e atuo como Analista de Recursos Humanos. 
+                    Além disso, sou estudante de Análise e Desenvolvimento de Sistemas. 
+                    Sou fascinado pelo universo da tecnologia e estou sempre buscando 
+                    aprimorar minhas habilidades em tudo que me proponho a fazer. 
+                    Atualmente, meu principal foco é a área de tecnologia. 
+                    Convido você a conhecer mais sobre meu perfil profissional. 
+                </p>
+            </div>
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>             
+        </div><!--Modal Sobre Mim-->
+
+    
+        <div id="modal-exemplo-2" class="modal">
+            <header>
+                <h2>Curriculo</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+            <div class="corpo-modal">
+                <p> Olá, seja bem-vindo ao meu currículo. Aqui estão algumas 
+                    informações básicas sobre minha experiência e habilidades. 
+                    Para obter uma visão mais detalhada, por favor, 
+                    clique no link abaixo para visualizar o currículo completo. 
+                    Agradeço antecipadamente por dedicar seu tempo para 
+                    conhecer mais sobre minha trajetória profissional.
+                </p>
+                <a href="https://drive.google.com/file/d/1HOM_n7gZRqLu9CknhkNqFX0CeAxtZthb/view?usp=drive_linkF" target="_blank"><button class="bt">Curriculo</button></a>                           
+            </div>
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>          
+        </div><!--Curriculo-->
+
+    
+        <div id="modal-exemplo-3" class="modal">
+            <header>
+                <h2>Minhas Skills</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+            <div class="corpo-modal">
+                <div class="icon_skills">
+                    <img width="220px" height="220px" src="./img/icon_html5.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_css.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_javascript.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_python.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_java2.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/Icon_android_studio_b22.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_photoshop.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_vscode.png" class="b_shadown">
+                </div>
+            </div>
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>      
+        </div><!--Minhas Skills-->
+
+
+        <div id="modal-exemplo-4" class="modal">
+            <header>
+                <h2>Meus Projetos</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+            <div class="corpo-modal">
+                <div id="conteiner">
+                    <div class="coluna">
+                        <div class="card">
+                            <a href="https://github.com/Gestao-de-Performance/projeto-final-Wandherr.git" target="_blank"><img src="./img/projeto_11.png" alt="uma imagem com uma foto e alguns dados pessoais"></a>
+                            <h4> Portifólio </h4>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="card">
+                            <a href="https://github.com/Wandherr/Calculadora.git" target="_blank"><img src="./img/projeto_333.png" alt="uma imagem de uma calculadora com botões coloridos"></a>
+                            <h4> Calculadora </h4>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="card">
+                            <img src="./img/projeto_22.png" alt="uma imagem da tela de entrar de uma aplicativo mobile">
+                            <h4> ADCP apk </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Projetos-->
+
+        <div id="mascara"></div>
+
+    </div><!--background-->
+
+    <script src="script.js" defer></script>
+    <!-- <script src="script.js"></script> -->
+
+</body>
+</html>
